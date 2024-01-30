@@ -3,7 +3,7 @@
         'name' => 'iagosm/buscador-curso',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'de1e520109d3f79f2111cc5c51c517b22d982417',
+        'reference' => '74ecac47c4f2b6957694f99d025d7524d7b5961d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -85,7 +85,7 @@
         'iagosm/buscador-curso' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'de1e520109d3f79f2111cc5c51c517b22d982417',
+            'reference' => '74ecac47c4f2b6957694f99d025d7524d7b5961d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

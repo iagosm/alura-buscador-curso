@@ -27,6 +27,20 @@
     "scripts": {
         "test": "phpunit .\\src\\TestBuscadorDeCursos.php",
         "cs": "phpcs --standard=PSR12 src/",
-        "phan": "phan --allow-polyfill-parser"
+        "phan": "phan --allow-polyfill-parser",
+        "exibe-curso": "Namespace\\Da\\Classe::metodo",
+        "check": [
+            "@phan",
+            "@cs",
+            "@test"
+        ],
+        "ls": "dir",
+        "limpa-cache": "rm- rf cache",
+        "post-update-cmd": [
+            "@test"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Roda as verificações do código PHAN, PHPCS e PHPUNIT"
     }
 }
